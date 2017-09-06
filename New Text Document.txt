@@ -1,0 +1,37 @@
+difference between VMware vCenter server, vSphere and ESXi
+https://www.youtube.com/watch?v=tPKdfbL1Zv4
+https://technet.microsoft.com/en-in/library/ee683978.aspx h/w req
+
+
+c822cf85d2234d87827b30ac1aa3a2ef  jenkins passwd
+
+
+20/21 - FTP
+22 - SSH
+1433 - MSSQL Server
+1434 - MSSQL Monitor
+3389 - RDP
+3306 - MySQL
+4333 - MSQL
+5432 - PostgreSQL
+5500 - VNC RDP
+
+ssh-keygen -f user
+This will create two files:
+
+id_rsa (private key)
+id_rsa.pub (public key)
+
+
+devboss.webnode.com  -> website name
+
+
+As previously stated, you are responsible for managing the security of your EC2 instance. Below is a short checklist of items to follow when deploying your EC2 instance:
+Generate your own key pair and do not share it with other customers or with AWS. Even if they ask nicely.
+Disable password-only access for your guests
+Utilize multi-factor authentication
+Enable key-based SSHv2
+Disable remote root login
+Use command-line logging
+Employ a privilege escalation mechanism (i.e. ‘sudo’)
+Update and patch your OS, including security updates
