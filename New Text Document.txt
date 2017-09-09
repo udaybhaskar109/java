@@ -1,4 +1,4 @@
-difference between VMware vCenter server, vSphere and ESXi
+difference between VMware vCenter server, vSphere, ESXi 
 https://www.youtube.com/watch?v=tPKdfbL1Zv4
 https://technet.microsoft.com/en-in/library/ee683978.aspx h/w req
 
@@ -33,5 +33,5 @@ Utilize multi-factor authentication
 Enable key-based SSHv2
 Disable remote root login
 Use command-line logging
-Employ a privilege escalation mechanism (i.e. ‘sudo’)
+Employ a privilege escalation mechanism (i.e. â€˜sudoâ€™)
 Update and patch your OS, including security updates
